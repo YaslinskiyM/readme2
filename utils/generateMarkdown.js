@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
-    return `![githib license](https://img.shields.io/badge/license-${license}-orange.svg)` 
+    return `![githib license](https://choosealicense.com/${license})` 
    } 
    return "";
 }
@@ -49,6 +49,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Credits](#credits)
 - [License](#license)
 
+
 ## Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
@@ -71,7 +72,7 @@ If you followed tutorials, include links to those here as well.
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
+${renderLicenseLink (data.license)} 
 
 🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 

@@ -1,18 +1,19 @@
 const inquirer = require('inquirer');
 const fs = require ('fs');
 
+
 // TODO: Include packages needed for this application
 const readmeGenerator = ({title, description, installation,  usageInformation, contributionGuidelines, testInstructions, license, gitHubUserName, emailAddress,  }) => {
     return `
-    Project Title ${title}
-    Description goes here ${description}
-    Installation ${installation}
-    Table of Content ${usageInformation}
-    Contribution Guidlines ${contributionGuidelines}
-    Test Instructions ${testInstructions }
-    License Type ${license}
-    GitHub Username ${gitHubUserName}
-    Email Address ${emailAddress}
+    Project Title: ${title}
+    Description: ${description}
+    Installation: ${installation}
+    Table of Content: ${usageInformation}
+    Contribution Guidlines: ${contributionGuidelines}
+    Test Instructions: ${testInstructions }
+    License Type: ${license}
+    GitHub Username: ${gitHubUserName}
+    Email Address: ${emailAddress}
 
     `;
 };

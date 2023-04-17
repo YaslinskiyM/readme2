@@ -88,33 +88,6 @@ inquirer.prompt([
     });
 });
 
-//title, description, installation,  usageInformation, contributionGuidelines, testInstructions
-    // TODO: Create an array of questions for user input
-
-//    const questions = [];
-
-
-
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-//function init() {}
-
-// Function call to initialize app
-//init();
-
-//TItle of project
-//Table of Contents //when i click on the link it takes me to that spot on the page
-// deswcritopms
-// installatons intrusction
-//usage info
-//license-I get choices for this
-//contributing
-//test and questions- 
-    //when asked for github username this is added to quesitons as a link to my gh
-    //enter email this gets aded to this seciton with 
-
 
 
 

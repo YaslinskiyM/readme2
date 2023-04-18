@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "none") {
-    return `![githib license](https://img.shields.io/badge/license-${license}-orange.svg)` 
+    return `![githib license](${license})` 
    } 
    return "";
 }
@@ -70,6 +70,7 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well.
 
 ## License
+${renderLicenseSection(data.license)} 
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 ${renderLicenseLink (data.license)} 
